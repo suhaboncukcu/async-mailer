@@ -1,0 +1,22 @@
+{
+    "name": "suhaboncukcu/zingat-mailer",
+    "description": "A lightweight mailer microservice for zingat",
+    "type": "project",
+    "authors": [
+        {
+            "name": "suhaboncukcu",
+            "email": "suhaboncukcu@gmail.com"
+        }
+    ],
+    "require": {
+        "react/event-loop": "^1.0",
+        "react/http": "^0.8.3",
+        "mandrill/mandrill": "^1.0",
+        "josegonzalez/dotenv": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}
